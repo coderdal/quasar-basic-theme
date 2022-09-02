@@ -20,6 +20,7 @@
       show-if-above
       :width="260"
       :breakpoint="700"
+      bordered
     >
       <q-scroll-area class="fit">
         <q-list padding class="menu-list">
@@ -27,6 +28,7 @@
           <essential-link icon="inbox" title="Inbox" link="/inbox" />
           <essential-link icon="explore" title="Explore" link="/explore" />
           <essential-link icon="star" title="Favorites" link="/favorites" />
+          <essential-link icon="login" title="Login" link="/login" />
           <essential-link icon="logout" title="Logout" link="/logout" />
         </q-list>
       </q-scroll-area>

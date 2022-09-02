@@ -10,6 +10,7 @@ const routes = [
         path: "/favorites",
         component: () => import("src/pages/Favorites.vue"),
       },
+      { path: "/login", component: () => import("src/pages/Login.vue") },
       { path: "/logout", component: () => import("src/pages/Logout.vue") },
     ],
   },

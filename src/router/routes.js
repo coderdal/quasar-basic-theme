@@ -7,6 +7,10 @@ const routes = [
       { path: "/inbox", component: () => import("src/pages/Inbox.vue") },
       { path: "/explore", component: () => import("src/pages/Explore.vue") },
       {
+        path: "/carousel",
+        component: () => import("src/pages/Carousel.vue"),
+      },
+      {
         path: "/favorites",
         component: () => import("src/pages/Favorites.vue"),
       },

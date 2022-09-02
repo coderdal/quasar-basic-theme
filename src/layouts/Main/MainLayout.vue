@@ -28,6 +28,7 @@
           <essential-link icon="inbox" title="Inbox" link="/inbox" />
           <essential-link icon="explore" title="Explore" link="/explore" />
           <essential-link icon="star" title="Favorites" link="/favorites" />
+          <essential-link icon="image" title="Carousel" link="/carousel" />
           <essential-link icon="login" title="Login" link="/login" />
           <essential-link icon="logout" title="Logout" link="/logout" />
         </q-list>
